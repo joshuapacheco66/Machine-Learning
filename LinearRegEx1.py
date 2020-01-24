@@ -44,7 +44,11 @@ for x in range(len(predictions)):
     print(predictions[x], y_test[x])
 
 
-
+plt.style.use("ggplot")
+plt.scatter(data["G2"], data["G3"])
+plt.xlabel("Second Period Grade")
+plt.ylabel("Final Grade")
+plt.show()
 
 
 
